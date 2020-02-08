@@ -1,0 +1,19 @@
+For the cofee-cup icon
+- https://www.iconfinder.com/search/?q=coffee+cup&from=navbar
+
+
+Bootstrap: 
+- access the Bootstrap site (https://getbootstrap.com/docs/4.4/getting-started/download/)
+- roll down, search for "get started", "download", "Compiled CSS and JS"
+- click on "Download"
+- after download is finished,
+- access the zip file
+- search for the "css" folder
+- copy the "bootstrap.min.css" file
+- and paste in the "src/components" folder
+
+For the shopping-cart icon
+- access react-icons npm (https://www.npmjs.com/package/react-icons)
+- yarn add react-icons
+
+- Continuar a partir de 23:00
