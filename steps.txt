@@ -16,4 +16,4 @@ For the shopping-cart icon
 - access react-icons npm (https://www.npmjs.com/package/react-icons)
 - yarn add react-icons
 
-- Continuar a partir de 33:00
+- Continuar a partir de 1:25:30
