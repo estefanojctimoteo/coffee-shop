@@ -10,3 +10,8 @@ export default function BackgroundSection({img, styleClass, title, children}) {
     </BackgroundImage>
   )
 }
+
+BackgroundSection.defaultProps = {
+  title: 'default title',
+  styleClass: 'default-background',
+}

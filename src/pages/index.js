@@ -4,14 +4,21 @@ import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import { FaGulp } from "react-icons/fa"
+//import { FaGulp } from "react-icons/fa"
+
+import BackgroundSection from '../components/Globals/BackgroundSection'
+import Info from '../components/Home/Info'
 
 const IndexPage = ({data}) => (
   <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <FaGulp />
+    <SEO title="Home" keywords={[`gatsby`,`application`,`react`]} />
+    {/*<FaGulp />*/}
+    <BackgroundSection 
+      img={data.img.childImageSharp.fluid} 
+      title="regular joe's"
+      
+    />
+    <Info />
   </Layout>
 )
 
