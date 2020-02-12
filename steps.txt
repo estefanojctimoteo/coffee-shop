@@ -17,3 +17,9 @@ For the shopping-cart icon
 - yarn add react-icons
 
 - Continuar a partir de 2:26:40
+
+No command:
+-> contentful config add --proxy 192.168.239.14:8080
+
+
+CFPAT-vhWzlTajz08ysoD2MWhAhFrC8MCV8t4RfSM-UwB_sqU
