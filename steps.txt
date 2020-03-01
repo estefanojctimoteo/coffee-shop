@@ -23,3 +23,10 @@ No command:
 
 
 CFPAT-vhWzlTajz08ysoD2MWhAhFrC8MCV8t4RfSM-UwB_sqU
+
+Netlify:
+- Site Settings
+-- Build and deploy
+--- Build environment variables
+---- Edit variables:
+-> key CONTENTFUL_ACCESS_TOKEN: 
