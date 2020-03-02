@@ -16,7 +16,7 @@ const IndexPage = ({data}) => (
     <BackgroundSection 
       img={data.img.childImageSharp.fluid} 
       title="regular joe's"
-      
+      styleClass="default-background"
     />
     <Info />
   </Layout>
@@ -30,6 +30,27 @@ export const query = graphql`
     childImageSharp {
       fluid {
         ...GatsbyImageSharpFluid_tracedSVG
+      }
+    }
+  }
+  menu: allContentfulCofeeItem {
+    edges {
+      node {
+        id
+        title
+        description {
+          description
+        }
+        price
+        category
+        image {
+          fixed(
+            width: 50,
+            height: 50
+          ) {
+            src
+          }
+        }
       }
     }
   }
