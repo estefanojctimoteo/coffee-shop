@@ -16,7 +16,7 @@ For the shopping-cart icon
 - access react-icons npm (https://www.npmjs.com/package/react-icons)
 - yarn add react-icons
 
-- Continuar a partir de 2:26:40
+- Continuar a partir de 2:49:50
 
 No command:
 -> contentful config add --proxy 192.168.239.14:8080
@@ -25,3 +25,9 @@ No command:
 CFPAT-vhWzlTajz08ysoD2MWhAhFrC8MCV8t4RfSM-UwB_sqU
 
 yFJ_3pGVN5EimblRf8_uwDNUJ-LLi6c7STLzQaql2jY
+Netlify:
+- Site Settings
+-- Build and deploy
+--- Build environment variables
+---- Edit variables:
+-> key CONTENTFUL_ACCESS_TOKEN: 
